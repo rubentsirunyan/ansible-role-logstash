@@ -7,7 +7,7 @@
 - name: Add Logstash repository.
   template:
     src: logstash.repo.j2
-    dest: /etc/yum.repos.d/elasticsearch-{{ kibana_version }}.repo
+    dest: /etc/yum.repos.d/elasticsearch-{{ logstash_version }}.repo
     mode: 0644
 
 - name: Install Logstash.
