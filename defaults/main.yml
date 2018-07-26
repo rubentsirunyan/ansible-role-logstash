@@ -24,3 +24,4 @@ logstash_rabbitmq_port: 5672
 logstash_rabbitmq_user: admin
 logstash_rabbitmq_password: password
 
+logstash_es_index: rabbitmq
