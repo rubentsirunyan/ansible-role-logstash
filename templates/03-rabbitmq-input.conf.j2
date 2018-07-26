@@ -1,0 +1,10 @@
+input {
+	rabbitmq {
+		host => {{ logstash_rabbitmq_hosts }}
+		queue => "{{ logstash_rabbitmq_queue }}"
+		port =>	{{ logstash_rabbitmq_port }}
+		user => "{{ logstash_rabbitmq_user }}"
+		password => "{{ logstash_rabbitmq_password }}"
+	}
+}
+
