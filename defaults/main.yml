@@ -18,7 +18,7 @@ logstash_enabled_on_boot: yes
 logstash_install_plugins:
   - logstash-input-beats
 
-logstash_rabbitmq_hosts: ['mq01','mq02']
+logstash_rabbitmq_hosts: "[\"mq01\",\"mq02\"]"
 logstash_rabbitmq_queue: some_queue
 logstash_rabbitmq_port: 5672
 logstash_rabbitmq_user: admin
